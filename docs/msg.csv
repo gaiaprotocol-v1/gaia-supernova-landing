@@ -1,19 +1,37 @@
 key,ko,en
-TITLE,GAIA SUPERNOVA,GAIA SUPERNOVA
+TITLE,Gaia Supernova,Gaia Supernova
 WHY_MENU,WHY,WHY
 FUND_MENU,FUND,FUND
 MINT_MENU,MINT,MINT
-SNEAKPEEK_MENU,SNEAKPEEK,SNEAKPEEK
+SNEAKPEEK_MENU,SNEAK PEEK,SNEAK PEEK
 TEAM_MENU,TEAM,TEAM
-INIT_DESC,"Gaia Protocol의 두 번째 NFT이다.\nSupernova 홀더를 대상으로 지속적인 이벤트를 진행하고 오픈시 로열티를 홀더에게 분배한다.\n투자자의 초기 투자비용을 최대한 보장하고 지지(Backing)한다.\nNFT 투자자는 수준 높은 커뮤니티를 구성하고 매력적인 문화를 만들고 최고의 NFT 허브를 구축한다.",
-WHY_TITLE,Why Gaia SuperNova?,Why Gaia SuperNova?
-WHY_DESC,Gaia Supernova의 민팅 가격을 안정적인 DeFi에 예치해 영구적으로 발생되는 이자를 바탕으로 지속적인 이벤트를 진행한다.\n오픈씨 로열티의 90%를 홀더에게 분배하고 Gaia Kronos와 마찬가지로 NFT를 소유한 홀더를 중심으로 투자자의 사교모임을 형성하여 매력적이고 강력한 커뮤니티 형성을 목표로 한다.\n 이를 통해 가이아 프로토콜에서 민팅 된 NFT의 가치상승을 기대 할 수 있다.\n 최종적으로 가이아 프로토콜이 견고하게 성장하고 클레이튼 생태계 확장을 의미한다.,
-FUND_TITLE,Event Fund,
-FUND_DESC,Gaia Supernova 민팅 가격의 90%는 이벤트 펀드로 운용된다.\n이는 안정적인 DeFi에 예치되어 영구적인 이자가 발생된다. \n 이자를 바탕으로 지속적인 이벤트를 진행하여 경품을 NFT홀더 중 추첨하여 지급한다.\n 또한 민팅가 아래로 떨어지는 물량을 바이백하여 가격에 대한 최저 지지선을 확보하는데 사용한다.\n 이를 통해 투자자는 투자금 손실에 대한 심리적 부담없이 민팅에 참여할 수 있으며 지속적인 이벤트 혜택을 받는다.,
-SNEAKPEEK_TITLE,SNEAKPEEK,
-MINT_TITLE,MINT,
-MINT_VIP_TITLE,VIP PASS,
-MINT_VIP_DESC,3월 10일 밤 09시 50분,
-MINT_PUBLIC_TITLE,Public Sale,
-MINT_PUBLIC_DESC,3월 10일 밤 10시 00분,
-TEAM_TITLE,TEAM,
+INIT_DESC,Gaia Protocol의 두 번째 NFT이다.\nSupernova 홀더를 대상으로 지속적인 이벤트를 진행하고 오픈시 로열티를 홀더에게 분배한다.\n투자자의 초기 투자비용을 최대한 보장하고 지지(Backing)한다.\nNFT 투자자는 수준 높은 커뮤니티를 구성하고 매력적인 문화를 만들고 최고의 NFT 허브를 구축한다.,The second NFT from Gaia Protoocol. \n The team will hold various events for Supernova holders and payout OpnenSea royalty. \n Gaia Supernova secures holders' principal and NFT value as much as possible.\n NFT holders will lead building a qualified and attractive community and centre point of NFT investment.
+WHY_TITLE,Why Gaia Supernova?,Why Gaia Supernova?
+WHY_DESC,Gaia Supernova의 민팅 가격을 안정적인 DeFi에 예치해 영구적으로 발생되는 이자를 바탕으로 지속적인 이벤트를 진행한다.\n오픈씨 로열티의 90%를 홀더에게 분배하고 Gaia Kronos와 마찬가지로 NFT를 소유한 홀더를 중심으로 투자자의 사교모임을 형성하여 매력적이고 강력한 커뮤니티 형성을 목표로 한다.\n 이를 통해 가이아 프로토콜에서 민팅 된 NFT의 가치상승을 기대 할 수 있다.\n 최종적으로 가이아 프로토콜이 견고하게 성장하고 클레이튼 생태계 확장을 의미한다.,"Gaia Supernova will permanently deposit the mint fund to a stable DeFi protocol. \n 90% of OpenSea Royalty will be paid out to the holders. We will build up the holder-centric community as Gaia Kronos did.\n Such process will help increase the value of NFT minted from Gaia Protocol. \n Eventually, it will expand the Klaytn ecosystem."
+FUND_TITLE,Event Fund,Event Fund
+FUND_DESC,Gaia Supernova 민팅 가격의 90%는 이벤트 펀드로 운용된다.\n이는 안정적인 DeFi에 예치되어 영구적인 이자가 발생된다. \n 이자를 바탕으로 지속적인 이벤트를 진행하여 경품을 NFT홀더 중 추첨하여 지급한다.\n 또한 민팅가 아래로 떨어지는 물량을 바이백하여 가격에 대한 최저 지지선을 확보하는데 사용한다.\n 이를 통해 투자자는 투자금 손실에 대한 심리적 부담없이 민팅에 참여할 수 있으며 지속적인 이벤트 혜택을 받는다.,"90% of the minted fund will be run as an event fund. Event fund will be permanently deposited to stable DeFi protocol, which will interest. The interest will be used for holding events. The team will buy the prize that will go to NFT holders. As Gaia Kronos did, Gaia Supernova will run the Buyback fund to protect the value depreciation and alleviate the pressure of holders from losing the principals."
+SNEAKPEEK_TITLE,SNEAK PEEK,SNEAK PEEK
+MINT_TITLE,MINT INFORMATION,MINT
+MINT_VIP_TITLE,VIP Pass Sale,VIP Pass Sale
+MINT_VIP_DESC,3월 10일 밤 09시 50분,"21:50 UTC + 9, 10th of March"
+MINT_PUBLIC_TITLE,Public Sale,Public Sale
+MINT_PUBLIC_DESC,3월 10일 밤 10시 00분,"22:00 UTC + 9, 10th of March"
+TEAM_TITLE,TEAM,TEAM
+TEAM_TITLE1,심영재,
+TEAM_DESC1,Director,Director
+TEAM_TITLE2,조선우,
+TEAM_DESC2,Art & Design,Art & Design
+TEAM_TITLE3,TheGreatHB,TheGreatHB
+TEAM_DESC3,Smart Contract Developer,Smart contract Developer
+TEAM_TITLE4,이학성,Lee Hakseong
+TEAM_DESC4,Web Developer,Web Developer
+TEAM_TITLE5,강성민,
+TEAM_DESC5,Bot Developer,Bot Developer
+TEAM_TITLE6,박민,
+TEAM_DESC6,Marketing & CS,Marketing & CS
+TEAM_TITLE7,강희민,
+TEAM_DESC7,Marketing & CS,Marketing & CS
+TEAM_TITLE8,박상우,
+TEAM_DESC8,Moderator,Moderator
+TEAM_TITLE9,손상현,
+TEAM_DESC9,Moderator,Moderator

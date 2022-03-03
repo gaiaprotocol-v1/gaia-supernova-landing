@@ -224,7 +224,7 @@
         text-align     : center;
 
         @media @phone {
-            padding: 8px;
+            padding: 20px;
         }
 
         >.init-container {
@@ -289,13 +289,21 @@
                 font-size : 0.875rem;
             }
 
-            >.swiper-slide {
+
+            >section {
+                display              : grid;
+                grid-template-columns: repeat(2, 1fr);
+
                 margin-top: 2rem;
 
                 >img {
                     width        : 300px;
                     margin       : 8px;
                     border-radius: 4px;
+                }
+
+                @media @phone {
+                    grid-template-columns: repeat(1, 1fr);
                 }
             }
         }
@@ -333,6 +341,7 @@
         }
 
         >.team-container {
+
             >h2 {
                 font-family: trajan-pro-3, serif;
                 font-weight: 700;
@@ -341,111 +350,25 @@
                 color      : rgba(153, 0, 19, 1);
             }
 
-            >.swiper-slide {
-                margin-top           : 3rem;
+            >section {
                 display              : grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-gap             : 1rem 1rem;
+                grid-template-columns: repeat(2, 1fr);
 
                 @media @phone {
-                    grid-template-columns: 1fr;
+                    grid-template-columns: repeat(1, 1fr);
                 }
 
                 >.team {
-                    position: relative;
-
-                    >.content {
-                        transform: rotateY(0deg);
-
-                        >.front,
-                        >.back {
-                            display                   : block;
-                            transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-                            transition-duration       : 2.4s;
-                            transition-property       : transform, opacity;
-                        }
-
-                        >.front {
-                            >img {
-                                width: 100%;
-                            }
-                        }
-
-                        >.back {
-                            position : absolute;
-                            opacity  : 0;
-                            top      : 20%;
-                            left     : 0px;
-                            width    : 100%;
-                            transform: rotateY(-180deg);
-
-                            @media @phone {
-                                top: 10%;
-                            }
-
-                            >a {
-                                margin-top     : 1rem;
-                                font-size      : 2rem;
-                                color          : #e0d8c8;
-                                font-weight    : 700;
-                                text-decoration: none;
-                            }
-
-                            >h4 {
-                                margin-top: 0.5rem;
-                                font-size : 0.825rem;
-                            }
-
-                            >p {
-                                margin-top : 1rem;
-                                line-height: 1.5rem;
-                            }
-                        }
-
-                        &:hover {
-
-                            >.front {
-                                transform: rotateY(180deg);
-                            }
-
-                            >.back {
-                                background-color: rgba(0, 0, 0, 0.7);
-                                border-radius   : 128px;
-                                padding         : 2rem;
-                                opacity         : 1;
-                                transform       : rotateY(0deg);
-                            }
-                        }
+                    >h3 {
+                        margin-top : 4rem;
+                        line-height: 1.5rem;
+                        font-size  : 2rem;
+                        font-weight: 700;
                     }
-                }
-            }
-        }
 
-        >.partner-container {
-            >h2 {
-                font-family: trajan-pro-3, serif;
-                font-weight: 700;
-                font-size  : 2.5rem;
-                margin-top : 12rem;
-                color      : #b19c76;
-            }
-
-            >.swiper-slide {
-                display        : flex;
-                justify-content: space-around;
-                margin-top     : 2.5rem;
-
-                @media @phone {
-                    flex-direction: column;
-                }
-
-                >img {
-                    width  : 100%;
-                    height : 96px;
-                    padding: 16px;
-
-                    @media @phone {
-                        margin-top: 2rem;
+                    >p {
+                        margin-top: 1rem;
+                        color     : rgba(153, 0, 19, 0.8);
                     }
                 }
             }
@@ -465,11 +388,23 @@
             margin         : auto;
 
             >.sns {
+                display      : flex;
                 margin-top   : 32px;
                 margin-bottom: 32px;
 
-                img {
-                    padding: 8px;
+                >a {
+                    display      : block;
+                    border-radius: 8px;
+
+                    >img {
+                        padding: 8px;
+                        width  : 40px;
+                        height : 40px;
+                    }
+
+                    &:hover {
+                        background-color: rgba(153, 0, 19, 0.8);
+                    }
                 }
             }
 
