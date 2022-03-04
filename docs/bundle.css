@@ -170,8 +170,8 @@ input {
   @import url("https://p.typekit.net/p.css?s=1&k=zoc8uhz&ht=tk&f=15665.15666&a=43843172&app=typekit&e=css");
 }
 @font-face {
-  font-family: 'GongGothicBold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+  font-family: 'copperplate';
+  src: url('https://use.typekit.net/zoc8uhz.css') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -360,6 +360,7 @@ body {
   float: left;
 }
 .landing-view > header > .nav > .menu > .item > a {
+  font-family: copperplate, serif;
   cursor: pointer;
   padding: 10px 16px;
   font-size: 14px;
@@ -374,7 +375,7 @@ body {
   background-color: rgba(153, 0, 19, 0.8);
 }
 .landing-view > header > .nav > .menu > .item > .enter-app {
-  font-family: trajan-pro-3, serif;
+  font-family: copperplate, serif;
   cursor: pointer;
   padding: 10px 16px;
   font-size: 14px;
@@ -390,8 +391,9 @@ body {
   background-color: rgba(153, 0, 19, 0.8);
 }
 .landing-view > header > .nav > .menu > .item > select {
+  font-family: copperplate, serif;
   cursor: pointer;
-  padding: 8px 16px;
+  padding: 8px 12px;
   font-size: 14px;
   text-decoration: none;
   color: white;
@@ -548,6 +550,16 @@ body {
 .landing-view > main .fund-container > p {
   margin-top: 1rem;
   line-height: 2rem;
+}
+.landing-view > main > .video-container > h2 {
+  font-family: trajan-pro-3, serif;
+  font-weight: 700;
+  font-size: 45px;
+  margin-top: 12rem;
+  color: #990013;
+}
+.landing-view > main > .video-container > .video {
+  margin-top: 1rem;
 }
 .landing-view > main > .fundflow {
   margin-top: 12rem;
