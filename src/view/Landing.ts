@@ -78,6 +78,7 @@ export default class Landing implements View {
                             el("img", { "data-aos": "zoom-in", src: "/images/nft/nft3.png" }),
                             el("img", { "data-aos": "zoom-in", src: "/images/nft/nft4.png" }),
                             el("img", { "data-aos": "zoom-in", src: "/images/nft/nft5.gif" }),
+                            el("img", { "data-aos": "zoom-in", src: "/images/nft/nft6.gif" }),
                         ),
                     ),
                     el(".team-container", { id: "team" },
