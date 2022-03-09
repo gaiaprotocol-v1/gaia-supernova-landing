@@ -70,6 +70,7 @@ export default class Landing implements View {
                         el("h3", { "data-aos": "zoom-in" }, msg("MINT_PUBLIC_TITLE")),
                         el("p", { "data-aos": "zoom-in" }, msg("MINT_PUBLIC_DESC")),
                         el(".caption", { "data-aos": "zoom-in" }, "1,000 Klay"),
+                        el("a", { "data-aos": "zoom-in", href: "https://mint.gaiasupernova.com/", target: "_blank" }, "Go to Mint"),
                     ),
                     el(".nft-container", { id: "nft" },
                         el("h2", { "data-aos": "zoom-in" }, msg("SNEAKPEEK_TITLE")),

@@ -621,6 +621,23 @@ body {
 .landing-view > main > .mint-container > p {
   margin-top: 1rem;
 }
+.landing-view > main > .mint-container > a {
+  display: block;
+  font-family: copperplate, serif;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 16px;
+  text-decoration: none;
+  background-color: #990013;
+  border-radius: 4px;
+  color: white;
+}
+.landing-view > main > .mint-container > a:hover {
+  background-color: rgba(153, 0, 19, 0.9);
+}
+.landing-view > main > .mint-container > a:active {
+  background-color: rgba(153, 0, 19, 0.8);
+}
 .landing-view > main > .team-container > h2 {
   font-family: trajan-pro-3, serif;
   font-weight: 700;
