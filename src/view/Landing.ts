@@ -1,4 +1,4 @@
-import { BodyNode, DomNode, el } from "@hanul/skynode";
+import { BodyNode, ClosableFloatingDomNode, DomNode, el } from "@hanul/skynode";
 import { View, ViewParams } from "skyrouter";
 import AOS from "aos";
 import msg from "msg.js";
@@ -7,7 +7,8 @@ import BrowserInfo from "../BrowserInfo";
 export default class Landing implements View {
 
     private container: DomNode;
-    private menu: DomNode;
+
+    private menu: DomNode<HTMLInputElement>;
 
     constructor() {
         document.title = msg("TITLE");
@@ -20,11 +21,11 @@ export default class Landing implements View {
                         el(".logo",
                             el("a", { href: "#init" }, el("img", { src: "/images/logo/logo-none-text.png", alt: "gaia supernova logo" })),
                         ),
-                        el("input.menu-btn", { type: "checkbox", id: "menu-btn" }),
+                        this.menu = el("input.menu-btn", { type: "checkbox", id: "menu-btn" }),
                         el("label.menu-icon", { for: "menu-btn" },
                             el("span.navicon"),
                         ),
-                        this.menu = el("ul.menu",
+                        el("ul.menu", { click: () => { this.menu.domElement.checked = !this.menu.domElement.checked } },
                             el("li.item", el("a", msg("FUND_MENU"), { href: "#fund" })),
                             el("li.item", el("a", msg("MINT_MENU"), { href: "#mint" })),
                             el("li.item", el("a", msg("SNEAKPEEK_MENU"), { href: "#nft" })),
