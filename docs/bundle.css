@@ -540,6 +540,12 @@ body {
   margin: 72px;
   border-radius: 4px;
 }
+@media only screen and (max-width: 719px) {
+  .landing-view > main > .init-container > .flow-map {
+    width: 100%;
+    margin: 0px;
+  }
+}
 .landing-view > main > .init-container > p {
   margin-top: 32px;
   line-height: 2rem;

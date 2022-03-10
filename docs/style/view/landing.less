@@ -247,10 +247,14 @@
             }
 
             >.flow-map {
-                // max-width: 768px;
                 width        : 50%;
                 margin       : 72px;
                 border-radius: 4px;
+
+                @media @phone {
+                    width : 100%;
+                    margin: 0px;
+                }
             }
 
             >p {
