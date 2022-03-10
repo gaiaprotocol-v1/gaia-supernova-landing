@@ -535,6 +535,11 @@ body {
     width: 80%;
   }
 }
+.landing-view > main > .init-container > .flow-map {
+  width: 50%;
+  margin: 72px;
+  border-radius: 4px;
+}
 .landing-view > main > .init-container > p {
   margin-top: 32px;
   line-height: 2rem;
@@ -556,7 +561,6 @@ body {
   font-family: trajan-pro-3, serif;
   font-weight: 700;
   font-size: 45px;
-  margin-top: 12rem;
   color: #990013;
 }
 .landing-view > main > .video-container > .video {
@@ -669,7 +673,7 @@ body {
   margin-top: 12rem;
   background-color: black;
 }
-.landing-view > footer .footer-container {
+.landing-view > footer > .footer-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -677,24 +681,24 @@ body {
   max-width: 1240px;
   margin: auto;
 }
-.landing-view > footer .footer-container > .sns {
+.landing-view > footer > .footer-container > .sns {
   display: flex;
   margin-top: 32px;
   margin-bottom: 32px;
 }
-.landing-view > footer .footer-container > .sns > a {
+.landing-view > footer > .footer-container > .sns > a {
   display: block;
   border-radius: 8px;
 }
-.landing-view > footer .footer-container > .sns > a > img {
+.landing-view > footer > .footer-container > .sns > a > img {
   padding: 8px;
   width: 40px;
   height: 40px;
 }
-.landing-view > footer .footer-container > .sns > a:hover {
+.landing-view > footer > .footer-container > .sns > a:hover {
   background-color: rgba(153, 0, 19, 0.8);
 }
-.landing-view > footer .footer-container > .copyright {
+.landing-view > footer > .footer-container > .copyright {
   font-size: 0.75rem;
   margin-bottom: 32px;
 }

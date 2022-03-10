@@ -47,6 +47,7 @@ export default class Landing implements View {
                     el(".init-container", { id: "init" },
                         el("img", { "data-aos": "zoom-in" }, { src: "/images/logo/logo.png", alt: "gaia supernova logo" }),
                         el("p", { "data-aos": "zoom-in" }, msg("INIT_DESC")),
+                        el("img.flow-map", { src: "/images/flow-map.png", alt: "flow map", "data-aos": "zoom-in" }),
                     ),
                     el(".video-container",
                         el("h2", { "data-aos": "zoom-in" }, msg("VIDEO_TITLE")),
