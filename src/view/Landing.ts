@@ -30,7 +30,7 @@ export default class Landing implements View {
                             el("li.item", el("a", msg("MINT_MENU"), { href: "#mint" })),
                             el("li.item", el("a", msg("SNEAKPEEK_MENU"), { href: "#nft" })),
                             el("li.item", el("a", msg("TEAM_MENU"), { href: "#team" })),
-                            el("li.item", el("a.enter-app", "SuperNova", { href: "https://mint.gaiasupernova.com/", target: "_blank" })),
+                            el("li.item", el("a.enter-app", "Enter App", { href: "https://app.gaiasupernova.com/", target: "_blank" })),
                             el("li.item", select = el("select.language-select",
                                 el("option", "한국어 🇰🇷 ", { value: "ko" }),
                                 el("option", "English 🇺🇸 ", { value: "en" }),
